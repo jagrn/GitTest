@@ -11,7 +11,9 @@ namespace GitTest
         static void Main(string[] args)
         {
             var ui = new Ui();
+
             ui.Hello();
+            Console.ReadKey();
         }
     }
 }
